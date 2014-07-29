@@ -4,7 +4,7 @@ require 'terminal-notifier'
 require 'tempfile'
 
 module TableauNotify
-  def run
+  def self.run
     query_data = false
 
     File.open(File.expand_path("~/Documents/My\ Tableau\ Repository/Logs/log.txt")) do |log|
