@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'tableau_notify'
+rescue LoadError
+  require 'rubygems'
+  require 'tableau_notify'
+end
+
+TableauNotify.run
