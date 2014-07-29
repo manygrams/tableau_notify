@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tableau_notify (0.0.3)
+    tableau_notify (0.0.4)
       file-tail
       terminal-notifier
 
