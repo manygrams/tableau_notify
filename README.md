@@ -1,4 +1,4 @@
-=== Tableau Notifier for Mac
+### Tableau Notifier for Mac
 
 This simple application shows notifications in the Apple Notification Center whenever Tableau runs a query against an external data source. To use the notifier, you simply do:
 
